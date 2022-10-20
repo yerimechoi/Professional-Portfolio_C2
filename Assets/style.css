@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text_color: #f1f1f1;
+    --background_color: #040404;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: var(--background_color);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 225%;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 10px;
+    background-color: var(--text_color);
+    color: var(--background_color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+.header nav {
+    padding-top: 15px;
+    float: right;
+    font-size: 125%;
+    padding-right: 40px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header nav ul li a {
+    color: var(--text_color);
+}
+
+.image {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    background-image: url(./Images/topography.jpeg);
+}
+
+h2 {
+    font-size: 250%;
+    text-align: right;
+    background-color: var(--text_color);
+    color: var(--background_color);
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+.about-me {
+    display: flex;
+    margin: 5px;
+    border: 2px solid black;
+}
+#about-me-header {
+    border-right: 3px solid red;
+    flex: 30%
+}
+#about-me-para {
+    flex: 70%;
+}
+
+#about-me-header h3 {
+    font-size: 250%;
+    color: var(--background_color);
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+#about-me-para p {
+    font-size: 100%;
+    color: var(--background_color);
+    float: right;
+    padding-right: 40px;
+    margin-left: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    display: inline-block;
+}
+
+.content h3 {
+    font-size: 250%;
+    color: var(--background_color);
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.content-w1 {
+    font-size: 150%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.contact {
+    display: inline-block;
+}
+
+.contact h3 {
+    font-size: 250%;
+    color: var(--background_color);
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.contact div {
+    padding-top: 15px;
+    float: center;
+    font-size: 125%;
+    padding-left: 300px;
+    padding-bottom: 50px;
+}
+
+.contact div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.contact div ul li a {
+    color: var(--background_color);
+    text-align: center;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(./Images/topography.jpeg);
+}
