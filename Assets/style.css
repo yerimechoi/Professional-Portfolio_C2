@@ -7,7 +7,8 @@
 :root {
     --text_color: #f1f1f1;
     --background_color: #040404;
-    --line_color: #818181;
+    --line_color: #14223f;
+    --shadow: rgb(104, 104, 104);
 }
 
 .header {
@@ -22,8 +23,8 @@
     text-align: right;
     padding-left: 80px;
     padding-right: 10px;
-    background-color: var(--text_color);
-    color: var(--line_color);
+    background-color: var(--line_color);
+    color: var(--text_color);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
@@ -53,7 +54,7 @@ h2 {
     font-size: 250%;
     text-align: right;
     background-color: var(--text_color);
-    color: var(--background_color);
+    color: var(--line_color);
     padding-right: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -67,7 +68,7 @@ h2 {
 }
 
 #about-me-header {
-    border-right: 3px solid var(--line_color);
+    border-right: 3px solid var(--background_color);
     flex: 20%
 }
 
@@ -84,14 +85,14 @@ h2 {
 }
 
 #about-me-para p {
-    font-size: 110%;
+    font-size: 120%;
     color: var(--background_color);
     float: right;
     padding-left: 30px;
     padding-top: 10px;
     padding-right: 604px;
     padding-bottom: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 }
 
 .work {
@@ -100,7 +101,7 @@ h2 {
 }
 
 #work-header {
-    border-right: 3px solid var(--line_color);
+    border-right: 3px solid var(--background_color);
     flex: 20%;
 }
 
@@ -120,8 +121,12 @@ h2 {
 }
 
 #image1 {
-    border: 5px solid var(--background_color);
+    border: 5px solid var(--line_color);
+    margin-right: 599px;
     margin-bottom: 15px;
+    opacity: .9;
+    transition: 0.2s;
+    filter: blur(1px);
 }
 
 #bottom-left1 {
@@ -131,17 +136,20 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: var(--background_color);
+    background-color: var(--line_color);
     color: var(--text_color);
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
 #image2 {
-    border: 5px solid var(--background_color);
+    border: 5px solid var(--line_color);
     margin-bottom: 15px;
     display: flex;
     flex: 50%
+    opacity: .9;
+    transition: 0.2s;
+    filter: blur(1px);
 }
 
 #bottom-left2 {
@@ -151,41 +159,47 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: var(--background_color);
+    background-color: var(--line_color);
     color: var(--text_color);
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
 #image3 {
-    border: 5px solid var(--background_color);
+    border: 5px solid var(--line_color);
     margin-bottom: 15px;
     display: flex;
     flex: 50%;
     float: right;
     margin-right: 598px;
     margin-top: -175px;
+    opacity: .9;
+    transition: 0.2s;
+    filter: blur(1px);
 }
 
 #bottom-left3 {
     position: absolute;
     top: 508px;
-    right: 916px;
+    right: 914px;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: var(--background_color);
+    background-color: var(--line_color);
     color: var(--text_color);
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
 #image4 {
-    border: 5px solid var(--background_color);
+    border: 5px solid var(--line_color);
     margin-bottom: 15px;
     display: flex;
     flex: 50%
+    opacity: .9;
+    transition: 0.2s;
+    filter: blur(1px);
 }
 
 #bottom-left4 {
@@ -195,34 +209,51 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: var(--background_color);
+    background-color: var(--line_color);
     color: var(--text_color);
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
 #image5 {
-    border: 5px solid var(--background_color);
+    border: 5px solid var(--line_color);
     margin-bottom: 15px;
     display: flex;
     flex: 50%;
     float: right;
     margin-right: 598px;
     margin-top: -175px;
+    opacity: .9;
+    transition: 0.2s;
+    filter: blur(1px);
 }
 
 #bottom-left5 {
     position: absolute;
     top: 680px;
-    right: 916px;
+    right: 914px;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: var(--background_color);
+    background-color: var(--line_color);
     color: var(--text_color);
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.155);
+}
+
+#image1:hover,
+#image2:hover,
+#image3:hover,
+#image4:hover,
+#image5:hover {
+    box-shadow: inset 2px 2px 2px var(--shadow), 0 0 8px var(--shadow);
+    opacity: 1;
+    filter: blur(0px);
 }
 
 .contact-me {
@@ -231,7 +262,7 @@ h2 {
 }
 
 #contact-me-header {
-    border-right: 3px solid var(--line_color);
+    border-right: 3px solid var(--background_color);
     flex: 20%;
     margin-bottom: 20px;
 }
@@ -257,12 +288,17 @@ h2 {
     list-style: none;
     display: inline-block;
     padding-top: 20px;
-    font-weight: bolder;
 }
 
 .contacts ul li a {
     color: var(--background_color);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-    padding-right: 49px;
+    padding-right: 55px;
 }
+
+.footer {
+    background-image: url(./Images/topography.jpeg);
+    padding-bottom: 50px;
+}
+
 
