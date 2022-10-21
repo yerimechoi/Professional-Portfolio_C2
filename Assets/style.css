@@ -7,6 +7,7 @@
 :root {
     --text_color: #f1f1f1;
     --background_color: #040404;
+    --line_color: #818181;
 }
 
 .header {
@@ -18,11 +19,11 @@
 .header h1 {
     display: inline-block;
     font-size: 225%;
-    text-align: left;
-    padding-left: 40px;
+    text-align: right;
+    padding-left: 80px;
     padding-right: 10px;
     background-color: var(--text_color);
-    color: var(--background_color);
+    color: var(--line_color);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
@@ -30,7 +31,7 @@
     padding-top: 15px;
     float: right;
     font-size: 125%;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .header nav ul li {
@@ -53,7 +54,7 @@ h2 {
     text-align: right;
     background-color: var(--text_color);
     color: var(--background_color);
-    padding-right: 40px;
+    padding-right: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 600px;
@@ -62,96 +63,206 @@ h2 {
 
 .about-me {
     display: flex;
-    margin: 5px;
-    border: 2px solid black;
+    margin-top: 50px;
 }
+
 #about-me-header {
-    border-right: 3px solid red;
-    flex: 30%
-}
-#about-me-para {
-    flex: 70%;
+    border-right: 3px solid var(--line_color);
+    flex: 20%
 }
 
 #about-me-header h3 {
     font-size: 250%;
     color: var(--background_color);
-    padding-left: 40px;
-    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 250px;
+    text-align: right;
+}
+
+#about-me-para {
+    flex: 80%;
 }
 
 #about-me-para p {
-    font-size: 100%;
+    font-size: 110%;
     color: var(--background_color);
     float: right;
-    padding-right: 40px;
-    margin-left: 280px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 604px;
+    padding-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
 }
 
-
-
-
-
-
-
-
-
-
-
-.content {
-    display: inline-block;
+.work {
+    display: flex;
+    margin-top: 50px;
 }
 
-.content h3 {
+#work-header {
+    border-right: 3px solid var(--line_color);
+    flex: 20%;
+}
+
+#work-header h3 {
     font-size: 250%;
     color: var(--background_color);
-    padding-left: 40px;
-    padding-top: 50px;
-}
-
-.content-w1 {
-    font-size: 150%;
+    padding-right: 20px;
+    padding-left: 261px;
     text-align: left;
 }
 
-
-
-
-
-
-
-
-.contact {
-    display: inline-block;
+#work-image {
+    flex: 80%;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 10px;
 }
 
-.contact h3 {
+#image1 {
+    border: 5px solid var(--background_color);
+    margin-bottom: 15px;
+}
+
+#bottom-left1 {
+    position: absolute;
+    top: 325px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+#image2 {
+    border: 5px solid var(--background_color);
+    margin-bottom: 15px;
+    display: flex;
+    flex: 50%
+}
+
+#bottom-left2 {
+    position: absolute;
+    top: 508px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+#image3 {
+    border: 5px solid var(--background_color);
+    margin-bottom: 15px;
+    display: flex;
+    flex: 50%;
+    float: right;
+    margin-right: 598px;
+    margin-top: -175px;
+}
+
+#bottom-left3 {
+    position: absolute;
+    top: 508px;
+    right: 916px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+#image4 {
+    border: 5px solid var(--background_color);
+    margin-bottom: 15px;
+    display: flex;
+    flex: 50%
+}
+
+#bottom-left4 {
+    position: absolute;
+    top: 680px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+#image5 {
+    border: 5px solid var(--background_color);
+    margin-bottom: 15px;
+    display: flex;
+    flex: 50%;
+    float: right;
+    margin-right: 598px;
+    margin-top: -175px;
+}
+
+#bottom-left5 {
+    position: absolute;
+    top: 680px;
+    right: 916px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+}
+
+.contact-me {
+    display: flex;
+    margin-top: 50px;
+}
+
+#contact-me-header {
+    border-right: 3px solid var(--line_color);
+    flex: 20%;
+    margin-bottom: 20px;
+}
+
+#contact-me-header h3 {
     font-size: 250%;
     color: var(--background_color);
-    padding-left: 40px;
-    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 200px;
+    text-align: right;
 }
 
-.contact div {
+.contacts {
+    flex: 80%;
     padding-top: 15px;
-    float: center;
-    font-size: 125%;
-    padding-left: 300px;
-    padding-bottom: 50px;
+    float: right;
+    font-size: 120%;
+    padding-right: 60px;
 }
 
-.contact div ul li {
-    display: inline-block;
+.contacts ul li {
     margin-left: 25px;
-}
-
-.contact div ul li a {
-    color: var(--background_color);
-    text-align: center;
-}
-
-.footer {
+    list-style: none;
+    display: inline-block;
     padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url(./Images/topography.jpeg);
+    font-weight: bolder;
 }
+
+.contacts ul li a {
+    color: var(--background_color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    padding-right: 49px;
+}
+
