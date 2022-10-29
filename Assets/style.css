@@ -90,7 +90,7 @@ h2 {
 }
 
 #about-me-para p {
-    font-size: 120%;
+    font-size: 140%;
     color: var(--background_color);
     padding-left: 30px;
     padding-top: 10px;
@@ -232,10 +232,10 @@ h2 {
 }
 
 #contacts ul li a {
-    font-size: 120%;
+    font-size: 140%;
     color: var(--background_color);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .footer {
@@ -244,6 +244,207 @@ h2 {
 }
 
 /* Media Queries*/
- @media screen and (max-width: 1430px) and (min-width: 1000px) {
+@media screen and (max-width: 1430px) and (min-width: 1300px) {
+    #h3-header h3 {
+        font-size: 240%;
+    }
+
+    #about-me-para p {
+        font-size: 130%;
+    }
+
+    .works1 #background_image_1 {
+        margin-bottom: 40px;
+        width: 100%
+    }
     
+    #work_text_1 {
+        font-size: 240%;
+    }
+
+    .works1 #background_image_2 {
+        margin-bottom: 35px;
+    }
+
+    #work_text_2 {
+        font-size: 240%;
+    }
+    
+    .works1 #background_image_3 {
+        margin-bottom: 35px;
+        margin-top: -257px;
+    }
+    
+    #work_text_3 {
+        left: -175px;
+        top: -85px;
+        font-size: 240%;
+    }
+
+    #work_text_4 {
+        font-size: 240%;
+    }
+
+    #work_text_5 {
+        left: -175px;
+        top: -85px;
+        font-size: 240%;
+    }
+
+    #contacts ul li a {
+        font-size: 120%;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1100px) {
+    #h3-header h3 {
+        font-size: 230%;
+    }
+
+    #about-me-para p {
+        font-size: 120%;
+    }
+
+    .works1 #background_image_1 {
+        margin-bottom: 35px;
+        width: 100%
+    }
+    
+    #work_text_1 {
+        font-size: 230%;
+        top: 250px;
+        padding-left: 50px;
+    }
+
+    .works1 #background_image_2 {
+        margin-bottom: 35px;
+        width: 48%
+    }
+    
+    .works1 #background_image_3 {
+        margin-bottom: 35px;
+        margin-top: -217px;
+        width: 48%
+    }
+    
+    .works1 #background_image_4 {
+        margin-bottom: 30px;
+        width: 48%
+    }
+
+    .works1 #background_image_5 {
+        margin-bottom: 20px;
+        margin-top: -214px;
+        width: 48%;
+    }
+
+    #work_text_2 {
+        font-size: 230%;
+        left: -360px;
+        top: -85px;
+        padding-left: 50px;
+    }
+
+    #work_text_3 {
+        left: -140px;
+        top: -81px;
+        font-size: 230%;
+        padding-left: 50px;
+    }
+
+    #work_text_4 {
+        font-size: 230%;
+        left: -360px;
+        top: -81px;
+        padding-left: 50px;
+    }
+
+    #work_text_5 {
+        font-size: 230%;
+        left: -140px;
+        top: -81px;
+        padding-left: 50px;
+    }
+
+    #contacts ul li a {
+        font-size: 120%;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 900px) {
+    #h3-header h3 {
+        font-size: 220%;
+    }
+
+    #about-me-para p {
+        font-size: 110%;
+    }
+
+    .works1 #background_image_1 {
+        margin-bottom: 35px;
+        width: 100%
+    }
+    
+    #work_text_1 {
+        font-size: 220%;
+        top: 195px;
+        padding-left: 50px;
+    }
+
+    .works1 #background_image_2 {
+        margin-bottom: 35px;
+        width: 100%
+    }
+    
+    .works1 #background_image_3 {
+        margin-bottom: 35px;
+        top: 1000px;
+        width: 100%;
+    }
+    
+    .works1 #background_image_4 {
+        margin-bottom: 30px;
+        width: 100%
+    }
+
+    .works1 #background_image_5 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #work_text_2 {
+        font-size: 220%;
+        left: 0px;
+        top: -85px;
+        padding-left: 50px;
+        z-index: 1;
+    }
+
+    #work_text_3 {
+        left: -165px;
+        top: -81px;
+        font-size: 220%;
+        padding-left: 50px;
+    }
+
+    #work_text_4 {
+        font-size: 220%;
+        left: -360px;
+        top: -81px;
+        padding-left: 50px;
+    }
+
+    #work_text_5 {
+        font-size: 220%;
+        left: -140px;
+        top: -81px;
+        padding-left: 50px;
+    }
+
+    #contacts ul li a {
+        font-size: 110%;
+        padding-right: 10px;
+    }
 }
