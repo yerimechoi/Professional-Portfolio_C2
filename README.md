@@ -8,7 +8,7 @@ N/A
 
 ## Mock-Up
 The following mock-up shows the appearance of the original replication and through that had to add creative aspects to personalize my portfolio. 
-![MockUp] (./Assets/Images/mock-up.gif)
+![MockUp](./Assets/Images/mock-up.gif)
 
 ## Usage
 To access this project, you can click on the final URL below, access Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should appear either below or to the side of the webpage. There you can access the HTML codes (Elements) and the CSS codes (Styles). Another way is to clone the repository with the GitHub link below and access locally.
